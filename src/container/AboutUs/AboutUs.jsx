@@ -17,9 +17,12 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
+          Our fine dining hotel offers a luxurious and memorable experience for
+          all guests. From the moment you step into our elegant lobby, you'll be
+          greeted with warm and attentive service from our staff. Our
+          beautifully appointed rooms and suites are designed to provide comfort
+          and relaxation, with plush bedding, high-end amenities, and stunning
+          views.
         </p>
         <button type="button" className="custom__button">
           Know More
@@ -34,9 +37,11 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
-          Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
-          odio nec aliquet.
+          We also offer a range of amenities to enhance your stay, including a
+          fitness center, spa services, and a rooftop terrace with breathtaking
+          views of the city. Whether you're here for business or pleasure, we
+          strive to provide an unforgettable experience that will leave you
+          feeling pampered and rejuvenated."
         </p>
         <button type="button" className="custom__button">
           Know More
