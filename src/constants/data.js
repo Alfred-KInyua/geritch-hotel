@@ -92,5 +92,5 @@ let awards = [
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
 ];
-
+const data = { wines, cocktails, awards };
 export default data;
