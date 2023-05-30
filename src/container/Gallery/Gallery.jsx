@@ -21,7 +21,12 @@ const Gallery = () => {
       current.scrollLeft += 300;
     }
   };
-
+  const ims = [
+    images.gallery01,
+    images.gallery02,
+    images.gallery03,
+    images.gallery04,
+  ];
   return (
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
@@ -31,8 +36,9 @@ const Gallery = () => {
           className="p__opensans"
           style={{ color: '#AAAAAA', marginTop: '2rem' }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-          mattis ipsum turpis elit elit scelerisque egestas mu.
+          Our hotel website's gallery section showcases high-quality photos and
+          videos of our rooms, suites, common areas, restaurants, and other
+          facilities.
         </p>
         <button type="button" className="custom__button">
           View More
@@ -40,12 +46,7 @@ const Gallery = () => {
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
-          {[
-            images.gallery01,
-            images.gallery02,
-            images.gallery03,
-            images.gallery04,
-          ].map((image, index) => (
+          {ims.map((image, index) => (
             <div
               className="app__gallery-images_card flex__center"
               key={`gallery_image-${index + 1}`}
