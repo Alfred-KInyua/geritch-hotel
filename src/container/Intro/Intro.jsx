@@ -10,14 +10,7 @@ const Intro = () => {
 
   return (
     <div className="app__video">
-      <video
-        ref={vidRef}
-        src={meal}
-        type="video/mp4"
-        loop
-        controls={false}
-        muted
-      />
+      <video ref={vidRef} src={meal} type="video/mp4" loop controls={false} />
       <div className="app__video-overlay flex__center">
         <div
           className="app__video-overlay_circle flex__center"
