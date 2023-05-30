@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { SubHeading } from '../../components';
 import { images, data } from '../../constants';
 import './Laurels.css';
@@ -24,7 +22,7 @@ const Laurels = () => (
 
       <div className="app__laurels_awards">
         {data.awards.map((award) => (
-          <AwardCard award={award} key={award.id} />
+          <AwardCard award={award} key={award.title} />
         ))}
       </div>
     </div>
