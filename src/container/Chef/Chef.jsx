@@ -18,7 +18,7 @@ const Chef = () => (
           <img src={images.quote} alt="quote_image" />
           <p className="p__opensans">
             Experience the ultimate comfort and luxury at our hotel - your home
-            away from home!{' '}
+            away from home!
           </p>
         </div>
         <p className="p__opensans">
@@ -31,7 +31,7 @@ const Chef = () => (
       </div>
 
       <div className="app__chef-sign">
-        <p>Alfred Kinyua</p>
+        <p>Kelvin luo</p>
         <p className="p__opensans">Chef & Founder</p>
         <img src={images.sign} alt="sign_image" />
       </div>
