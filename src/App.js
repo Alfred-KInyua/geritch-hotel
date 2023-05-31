@@ -4,7 +4,7 @@ import {
   AboutUs,
   Chef,
   FindUs,
-  FooterOverlay,
+  Footer,
   Gallery,
   Header,
   Intro,
@@ -25,7 +25,7 @@ const App = () => (
     <Laurels />
     <Gallery />
     <FindUs />
-    <FooterOverlay />
+    <Footer />
   </div>
 );
 

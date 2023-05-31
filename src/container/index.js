@@ -1,7 +1,7 @@
 import AboutUs from './AboutUs/AboutUs';
 import Chef from './Chef/Chef';
 import FindUs from './Findus/FindUs';
-import FooterOverlay from '../components/Footer/FooterOverlay';
+import Footer from '../container/Footer/Footer';
 import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
@@ -12,7 +12,7 @@ export {
   AboutUs,
   Chef,
   FindUs,
-  FooterOverlay,
+  Footer,
   Gallery,
   Header,
   Intro,
