@@ -15,7 +15,7 @@
 
 ## Please Click the link bellow.
 
-[Alfred Kinyua Website](https://alfred-kinyua.github.io/Mobile-portfolio./)
+[Geritch Hotel Link](https://main--silly-dodol-693145.netlify.app/)
 
 ## Getting Started
 
@@ -39,7 +39,7 @@ Clone the repository on your local enviroment and run npm i on your terminal
 
 To start the dev server just run npm run dev. You can work in your favorite Code Editor
 
-If you want to see a live demo of this project, [Click here](https://alfred-kinyua.github.io/Mobile-portfolio./)
+If you want to see a live demo of this project, [Click here](https://main--silly-dodol-693145.netlify.app/)
 
 ## Author
 
@@ -53,7 +53,7 @@ If you want to see a live demo of this project, [Click here](https://alfred-kiny
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Alfred-KInyua/Mobile-portfolio./issues).
+Feel free to check the [issues page](https://github.com/Alfred-KInyua/geritch-hotel/issues).
 
 ## Show your support
 
